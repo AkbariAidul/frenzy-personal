@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frenzy-Personal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('Desain gaje.png') no-repeat center center/cover;
+        }
+        .card {
+            background: whitesmoke;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            width: 600px;
+            position: relative;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .name {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .description {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .links a {
+            display: block;
+            margin: 12px 0;
+            padding: 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            background: #0073b1;
+            transition: all 0.3s ease-in-out;
+            font-size: 1.1em;
+        }
+        .links a.github {
+            background: #333;
+        }
+        .links a.email {
+            background: #d14836;
+        }
+        .links a:hover {
+            transform: scale(1.1);
+            background: linear-gradient(135deg, #0073b1, #005582);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .copyright {
+            margin-top: 70px;
+            font-size: 1em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="aidul.png" alt="Foto Profil" class="profile-img">
+        <div class="name">People Usually Call Me Aidul 🖐️</div>
+        <div class="description">I'am Undergraduate Informatics Engineering Student at Hasnur Polytechnic</div>
+        <div class="links">
+            <a href="https://github.com/AkbariAidul" target="_blank" class="github">My GitHub</a>
+            <a href="https://linkedin.com/in/Aidul-Akbari-627888279" target="_blank">Let's Connect</a>
+            <a href="mailto:akbariaidul@gmail.com" class="email">Contact Me</a>
+        </div>
+        <div class="copyright">&copy; 2025 Akbari Aidul</div>
+    </div>
+</body>
+</html>
